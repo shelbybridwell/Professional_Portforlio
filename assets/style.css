@@ -1,0 +1,352 @@
+:root {
+    --light: #fff;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Font size set to 10px. 1rem will equal 10px. */
+html {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-image: url();
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: lightpink;
+    width: 80%;
+    height: fit-content;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+/* Properties applied to the Header and Footer */
+nav,
+footer {
+    background-color: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header and Navigation Bar Section*/
+nav {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    border-radius: 2px;
+    margin-top: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    z-index: 1;
+    
+}
+
+/* This allows me to change the color based on hover and what page we are on */
+nav:hover li a {
+    opacity: 0.5; 
+}
+nav:hover li a:hover {
+      opacity: 1; 
+    
+}
+
+li {
+    display: inline-block;
+    margin: 1px;
+    text-decoration: none;
+}
+
+a {
+    color:lavender;
+    font-size: 13px;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+p {
+    font-size: 12px;
+}
+
+img.logo {
+    height: 5rem;
+    width: 5rem;
+}
+
+#home-link,
+#about-link,
+#port-link,
+#contact-link {
+    visibility: hidden;
+}
+
+
+/* Page One, Home Section */
+#page-one {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: -1px;
+    border-radius: .5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid lavenderblush;
+}
+
+
+img.hello-pic {
+    width: 50%;
+    max-width: 51rem;
+    height: auto;
+    margin-right: 1rem;
+    margin-left: 10%;
+    outline: .3rem solid #fff;
+    border-radius: 5rem;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem
+}
+
+.text-wrapper {
+    width: 50%;
+    margin-left: 1rem;
+}
+
+/* Page Two, About Section */
+#page-two {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 2rem;
+    border-radius: .5rem;
+    padding: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    border: .3rem solid #fff;
+}
+
+#page-two h2 {
+    text-align: center;
+}
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.2rem;
+    margin-right: -1.2rem;
+    padding: 3rem;
+}
+
+#justify-content {
+    justify-content: center;
+}
+
+.info {
+    padding: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+/* Page Three, Portfolio Section */
+#page-three {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 2rem;
+    border-radius: .5rem;
+    padding: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    border: .3rem solid #fff;
+}
+
+#page-three h2 {
+    text-align: center;
+}
+
+#portfolio {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 5vw);
+    grid-gap: 1.5rem;
+    padding: 3rem;
+}
+
+#portfolio a {
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+    transition: all 1s ease;
+}
+
+#portfolio a:hover {
+    -webkit-filter:brightness(50%);
+    filter: brightness(50%);
+}
+
+#portfolio h3 {
+    color: #0f065e;
+    background-color: rgba(255, 255, 255, 0.8);
+    line-height: 2;
+    text-align: center;
+    border-top: .3rem solid #fff;
+    border-right: .3rem solid #fff;
+    border-bottom: .3rem solid #fff;
+}
+
+.gallery-link-one {
+    width: 100%;
+    height: 100%;
+    outline: .3rem solid #fff;
+    grid-column: 1 / 6;
+    grid-row: 1 / 4;
+    background-image: url(../assets/images/coding.jpg);
+}
+
+.gallery-link-two {
+    width: 100%;
+    height: 100%;
+    outline: .3rem solid #fff;
+    grid-column: 1 / 3;
+    grid-row: 4 / 6;
+    background-image: url(../assets/images/placeholder1.jpg);
+}
+
+.gallery-link-three {
+    width: 100%;
+    height: 100%;
+    outline: .3rem solid #fff;
+    grid-column: 3 / 6;
+    grid-row: 4 / 6;
+    background-image: url(../assets/images/placeholder3.jpg);
+}
+
+.gallery-link-one h3 {
+    width: 20%;
+    margin-top: 15%;
+}
+
+.gallery-link-two h3 {
+    width: 50%;
+    margin-top: 20%;
+}
+
+.gallery-link-three h3 {
+   width: 30%;
+   margin-top: 13%;
+}
+
+
+/* Page Four, Contact Section */
+#page-four {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 2rem;
+    border-radius: .5rem;
+    padding: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    border: .3rem solid #fff;
+}
+
+#page-four h2 {
+    text-align: center;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
+form {
+    margin: 0 auto;
+    width: 50rem;
+    padding: 1rem;
+    border: .3rem solid #fff;
+    border-radius: 2rem;
+}
+  
+label {
+    display: inline-block;
+    width: 10rem;
+    font-size: 1.6rem;
+}
+    
+input, 
+textarea {
+    box-sizing: border-box;
+    width: 30rem;
+    border: 1px solid #935d9b;
+}
+  
+textarea {
+    vertical-align: top;
+    height: 6rem;
+}
+    
+button {
+    height: 4rem;
+    width: 12rem;
+    background-color: #935d9b;
+    color: #FDF8F5;
+}
+
+.label-text {
+    text-align: right;
+}
+
+.submit-button {
+    text-align: center;
+}
+
+.contact-directly {
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.contact-directly ul li {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+
+/* Footer Section */
+footer {
+    font-size: 2rem;
+    margin-top: 2rem;
+    bottom: 0;
+    border-radius: .5rem .5rem 0 0;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: .3rem solid #fff;
+}
+
+/* Media Queries Section */
