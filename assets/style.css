@@ -109,7 +109,7 @@ li {
 }
 
 a {
-    color:lavender;
+    color:lightpink;
     font-size: 13px;
     text-decoration: none;
     transition: .3s ease;
@@ -168,11 +168,11 @@ img.hello-pic {
 /* Page Two, About Section */
 #page-two {
     background-color: rgba(255, 255, 255, 0.5);
-    margin-top: 2rem;
+    margin-top: 15px;
     border-radius: .5rem;
-    padding: 2rem;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: .3rem solid #fff;
 }
 
@@ -186,7 +186,7 @@ img.hello-pic {
     flex-direction: row;
     margin-left: -1.2rem;
     margin-right: -1.2rem;
-    padding: 3rem;
+    padding: 2px;
 }
 
 #justify-content {
@@ -194,9 +194,9 @@ img.hello-pic {
 }
 
 .info {
-    padding: 3rem;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    padding: 20px;
+    padding-top: 2px;
+    padding-bottom: 20px;
 }
 
 
@@ -205,11 +205,11 @@ img.hello-pic {
 /* Page Three, Portfolio Section */
 #page-three {
     background-color: rgba(255, 255, 255, 0.5);
-    margin-top: 2rem;
+    margin-top: 15px;
     border-radius: .5rem;
-    padding: 2rem;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: .3rem solid #fff;
 }
 
@@ -292,11 +292,11 @@ img.hello-pic {
 /* Page Four, Contact Section */
 #page-four {
     background-color: rgba(255, 255, 255, 0.5);
-    margin-top: 2rem;
+    margin-top: 15px;
     border-radius: .5rem;
-    padding: 2rem;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: .3rem solid #fff;
 }
 
@@ -308,53 +308,55 @@ img.hello-pic {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 3rem;
+    padding: 10px;
 }
 
 form {
     margin: 0 auto;
     width: 500px;
     padding: 10px;
-    border: 5px solid #b999c1;
+    border: 5px solid lightpink;
     border-radius: 20px;
 }
   
 label {
     display: inline-block;
-    width: 10rem;
-    font-size: 1.6rem;
+    width: 100px;
+    font-size: 12px;
 }
     
 input, 
 textarea {
     box-sizing: border-box;
-    width: 30rem;
-    border: 1px solid #935d9b;
+    width: 200px;
+    border: 1px solid lightpink;
 }
   
 textarea {
     vertical-align: top;
-    height: 6rem;
+    height: 200px;
 }
     
 button {
-    height: 4rem;
-    width: 12rem;
-    background-color: #935d9b;
+    height: 20px;
+    width: 65px;
+    background-color: lightpink;
     color: #FDF8F5;
+
 }
 
 .label-text {
-    text-align: right;
+    text-align: center;
 }
 
 .submit-button {
     text-align: center;
+
 }
 
 .contact-directly {
-    margin-top: 3rem;
-    font-size: 2rem;
+    margin-top: 12px;
+    font-size: 12px;
 }
 
 .contact-directly ul li {
@@ -362,12 +364,13 @@ button {
     justify-content: space-evenly;
     list-style-type: none;
     text-align: right;
+     
 }
 
 
 /* Footer Section */
 footer {
-    font-size: 2rem;
+    font-size: 12px;
     margin-top: 2rem;
     bottom: 0;
     border-radius: .5rem .5rem 0 0;
