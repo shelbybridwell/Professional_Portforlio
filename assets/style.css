@@ -58,9 +58,10 @@ footer {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color:#b999c1; 
+    background-color:lightpink; 
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 15px;
+    opacity: 50%;
   }
   
   /* The navigation menu links */
