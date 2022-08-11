@@ -26,7 +26,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: lightpink;
-    width: 70%;
+    width: 80%;
     height: fit-content;
 }
 
@@ -53,7 +53,7 @@ footer {
   /* The sidebar menu */
   .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 100px; /* Set the width of the sidebar */
+    width: 150px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -61,13 +61,13 @@ footer {
     background-color:lightpink; 
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 15px;
-    opacity: 50%;
-    border-radius: .5em;
+    opacity: 45%;
+    border-radius: .9em;
   }
   
   /* The navigation menu links */
   .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 20px 8px 6px 8px;
     text-decoration: none;
     font-size: 13px;
     color: black;
@@ -81,11 +81,11 @@ footer {
   }
 /* Header and Navigation Bar Section*/
 nav {
-    position: sticky;
+    position: static;
     display: flex;
     justify-content: space-between;
     top: 0;
-    border-radius: .5em;
+    border-radius: 9em;
     margin-top: 2px;
     margin-bottom: 10px;
     padding-top: 1px;
@@ -136,8 +136,8 @@ img.logo {
 }
 
 
-/* Page One, Home Section */
-#page-one {
+/* Area One, Home Section */
+#area-one {
     background-color: rgba(255, 255, 255, 0.5);
     margin-top: -1px;
     border-radius: .9em;
@@ -169,8 +169,8 @@ img.hello-pic {
     margin-left: 1px;
 }
 
-/* Page Two, About Section */
-#page-two {
+/* Area Two, About Section */
+#area-two {
     background-color: rgba(255, 255, 255, 0.5);
     margin-top: 15px;
     border-radius: .9rem;
@@ -180,7 +180,7 @@ img.hello-pic {
     border: 2px solid #fff;
 }
 
-#page-two h2 {
+#area-two h2 {
     text-align: center;
 }
 
@@ -206,8 +206,8 @@ img.hello-pic {
 
 
 
-/* Page Three, Portfolio Section */
-#page-three {
+/* Area Three, Portfolio Section */
+#area-three {
     background-color: rgba(255, 255, 255, 0.5);
     margin-top: 15px;
     border-radius: .9rem;
@@ -217,7 +217,7 @@ img.hello-pic {
     border: 2px solid #fff;
 }
 
-#page-three h2 {
+#area-three h2 {
     text-align: center;
 }
 
@@ -300,8 +300,8 @@ img.hello-pic {
 }
 
 
-/* Page Four, Contact Section */
-#page-four {
+/* Area Four, Contact Section */
+#area-four {
     background-color: rgba(255, 255, 255, 0.5);
     margin-top: 15px;
     border-radius: .5rem;
@@ -311,15 +311,15 @@ img.hello-pic {
     border: 2px solid #fff;
 }
 
-#page-four h2 {
+#area-four h2 {
     text-align: center;
 }
 
 #contact {
     display: flex;
-    justify-content: center;
+    justify-content: inline;
     flex-wrap: wrap;
-    padding: 1px;
+    padding: 10px;
     
 }
 
@@ -327,7 +327,7 @@ form {
     margin: 0 auto;
     width: 500px;
     padding: 10px;
-    border: 5px solid lightpink;
+    border: 2px solid #fff;
     border-radius: 20px;
     
 }
@@ -355,7 +355,7 @@ button {
     height: 20px;
     width: 65px;
     background-color: lightpink;
-    color: #FDF8F5;
+    color: #fff;
     border-radius: .9rem;
 
 
@@ -371,15 +371,16 @@ button {
    
 }
 
-.contact-directly {
+.contact {
     margin-top: 12px;
     font-size: 12px;
+    justify-content: inline;
     
 }
 
-.contact-directly ul li {
+.contact ul li {
     display: flex;
-    justify-content: center;
+    justify-content:flex-end;
     list-style-type: none;
     text-align: right;
      
