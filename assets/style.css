@@ -248,6 +248,7 @@ img.hello-pic {
     border-top: 2px solid #fff;
     border-right: 2px solid #fff;
     border-bottom: 2px solid #fff;
+    border-radius: .9rem;
 }
 
 .gallery-link-one {
@@ -257,6 +258,7 @@ img.hello-pic {
     grid-column: 1 / 6;
     grid-row: 1 / 4;
     background-image: url();
+    border-radius: .9rem;
 }
 
 .gallery-link-two {
@@ -266,6 +268,7 @@ img.hello-pic {
     grid-column: 1 / 3;
     grid-row: 4 / 6;
     background-image: url();
+    border-radius: .9rem;
 }
 
 .gallery-link-three {
@@ -275,21 +278,25 @@ img.hello-pic {
     grid-column: 3 / 6;
     grid-row: 4 / 6;
     background-image: url();
+    border-radius: .9rem;
 }
 
 .gallery-link-one h3 {
     width: 40%;
     margin-top: 15%;
+    border-radius: .9rem;
 }
 
 .gallery-link-two h3 {
     width: 90%;
     margin-top: 20%;
+    border-radius: .9rem;
 }
 
 .gallery-link-three h3 {
    width: 55%;
    margin-top: 13%;
+   border-radius: .9rem;
 }
 
 
@@ -313,6 +320,7 @@ img.hello-pic {
     justify-content: center;
     flex-wrap: wrap;
     padding: 1px;
+    
 }
 
 form {
@@ -321,6 +329,7 @@ form {
     padding: 10px;
     border: 5px solid lightpink;
     border-radius: 20px;
+    
 }
   
 label {
@@ -334,6 +343,7 @@ textarea {
     box-sizing: border-box;
     width: 200px;
     border: 1px solid lightpink;
+    
 }
   
 textarea {
@@ -346,6 +356,8 @@ button {
     width: 65px;
     background-color: lightpink;
     color: #FDF8F5;
+    border-radius: .9rem;
+
 
 }
 
@@ -355,17 +367,19 @@ button {
 
 .submit-button {
     text-align: center;
+    
    
 }
 
 .contact-directly {
     margin-top: 12px;
     font-size: 12px;
+    
 }
 
 .contact-directly ul li {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style-type: none;
     text-align: right;
      
@@ -376,7 +390,7 @@ footer {
     font-size: 12px;
     margin-top: 10px;
     bottom: 0;
-    border-radius: .9rem .9rem 0 0;
+    border-radius: .9rem;
     padding: 12px;
     background-color: rgba(255, 255, 255, 0.5);
     border: 2px solid #fff;
