@@ -53,7 +53,7 @@ footer {
   /* The sidebar menu */
   .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 150px; /* Set the width of the sidebar */
+    width: 9%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -113,7 +113,7 @@ li {
 }
 
 a {
-    color:lightpink;
+    color: pink;
     font-size: 13px;
     text-decoration: none;
     transition: .3s ease;
@@ -121,11 +121,6 @@ a {
 
 p {
     font-size: 12px;
-}
-
-img.logo {
-    height: 4px;
-    width: 5px;
 }
 
 
@@ -139,7 +134,7 @@ img.logo {
 
 /* Area One, Home Section */
 #area-one {
-    background: url(./watercolor-background-with-hand-drawn-elements_23-2148867455.webp);
+    background: url();
     margin-top: -1px;
     border-radius: .9em;
     padding-top: 2px;
@@ -319,9 +314,10 @@ img.hello-pic {
 
 #contact {
     display: flex;
-    justify-content: inline;
+    justify-content: inline-block;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 2px;
+
     
 }
 
@@ -330,7 +326,7 @@ form {
     width: 500px;
     padding: 10px;
     border: 2px solid #fff;
-    border-radius: 20px;
+    border-radius: 2px;
     
 }
   
@@ -376,7 +372,8 @@ button {
 .contact {
     margin-top: 12px;
     font-size: 12px;
-    justify-content: inline;
+    justify-content: inline-block;
+    text-align: center;
     
 }
 
