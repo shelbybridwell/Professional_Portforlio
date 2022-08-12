@@ -84,6 +84,7 @@ footer {
 nav {
     position: static;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     top: 0;
     border-radius: 9em;
@@ -94,6 +95,7 @@ nav {
     padding-left: 3px;
     padding-right: 3px;
     z-index: 1;
+    text-align: right;
     
 }
 
@@ -148,17 +150,19 @@ img.hello-pic {
     width: 250px;
     max-width: 150px;
     height: auto;
-    margin-right: 12px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
     outline: .3px solid #fff;
     border-radius: .9em;
 }
 
 #home {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    padding: 3px
+    padding: 60px
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 .text-wrapper {
@@ -314,8 +318,8 @@ img.hello-pic {
 
 #contact {
     display: flex;
-    justify-content: inline-block;
-    flex-wrap: wrap;
+    flex-direction: co ;
+    flex-wrap:nowrap;
     padding: 2px;
     border-radius: .9rem;
    
