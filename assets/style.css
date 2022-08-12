@@ -301,7 +301,7 @@ img.hello-pic {
 #area-four {
     background-color: rgba(255, 255, 255, 0.5);
     margin-top: 15px;
-    border-radius: .5rem;
+    border-radius: .9rem;
     padding: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -317,6 +317,8 @@ img.hello-pic {
     justify-content: inline-block;
     flex-wrap: wrap;
     padding: 2px;
+    border-radius: .9rem;
+   
 
     
 }
@@ -326,7 +328,7 @@ form {
     width: 500px;
     padding: 10px;
     border: 2px solid #fff;
-    border-radius: 2px;
+    border-radius: .9rem;
     
 }
   
@@ -334,6 +336,7 @@ label {
     display: inline-block;
     width: 100px;
     font-size: 12px;
+    
 }
     
 input, 
@@ -341,7 +344,7 @@ textarea {
     box-sizing: border-box;
     width: 200px;
     border: 1px solid lightpink;
-    
+    border-radius: .9rem;
 }
   
 textarea {
@@ -374,6 +377,7 @@ button {
     font-size: 12px;
     justify-content: inline-block;
     text-align: center;
+   
     
 }
 
