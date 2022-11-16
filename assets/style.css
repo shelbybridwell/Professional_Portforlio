@@ -51,8 +51,7 @@ footer {
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
-    left: 0;
-    background:url(./watercolor-background-with-hand-drawn-elements_23-2148867455.webp); 
+    left: 0; 
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 15px;
     opacity: 45%;
@@ -271,7 +270,6 @@ img.hello-pic {
     outline: 2px solid #fff;
     grid-column: 3 / 6;
     grid-row: 4 / 6;
-    background-image: url(./watercolor-background-with-hand-drawn-elements_23-2148867455.webp);
     border-radius: .9rem;
 }
 
