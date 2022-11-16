@@ -61,7 +61,6 @@ footer {
   
   /* The navigation menu links */
   .sidenav a {
-    background-color: rgba(255, 255, 255, 0.5);
     padding: 20px 8px 6px 8px;
     text-decoration: none;
     font-size: 13px;
@@ -83,7 +82,7 @@ nav {
     flex-direction: row-reverse;
     justify-content: space-between;
     top: 0;
-    border-radius: 9em;
+    border-radius: .9em;
     margin-top: 2px;
     margin-bottom: 10px;
     padding-top: 1px;
